@@ -1,4 +1,7 @@
-h1 { color: lightgray; }
+/* Header */
+h1 { color: red;}
+
+/* Menu */
 ul.main-menu {
   list-style-type: none;
   margin: 0;
