@@ -23,6 +23,9 @@ a:hover {
 a: visited {
   color: white
 }
+a:active {
+  color: gray
+}
 
 /* Body */
 p { margin: 20px 10px 30px
