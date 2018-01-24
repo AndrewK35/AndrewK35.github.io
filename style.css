@@ -1,3 +1,14 @@
+/* Color Pallette
+------------------------
+gray-blue       HEX: #cfe0e8
+
+very light blue HEX: #b7d7e8
+
+light blue      HEX: #87bdd8
+
+green-blue      HEX: #daebe8
+-------------------------*/
+
 /* Overall Site 
 -------------------------*/
 h1, h2, p, footer, ul.main-menu { 
@@ -23,13 +34,11 @@ ul.main-menu>li {
 }
 a {
   padding: 10px;  
-  background-color: blue;
-  color: white;
+  background-color: #b7d7e8;
   padding: 10px;
 }
 a:hover {
-  background-color: white;
-  color: blue;
+  background-color: #daebe8;
 }
 a: visited {
   color: white;
