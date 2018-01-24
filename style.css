@@ -1,4 +1,5 @@
-/* Overall Site */
+/* Overall Site 
+-------------------------*/
 h1, h2, p, footer, ul.main-menu { 
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
@@ -6,9 +7,11 @@ h1, p, ul.main-menu {
   text-align: center;
 }
 
-/* Header */
+/* Header 
+-------------------------*/
 
-/* Menu */
+/* Menu 
+-------------------------*/
 ul.main-menu {
   list-style-type: none;
   margin: 0;
@@ -23,18 +26,18 @@ a {
   color: white;
 }
 a:hover {
-    background-color: lightblue;
+  background-color: lightblue;
+  color: white;
 }
 a: visited {
   color: white;
 }
-a:active {
-  color: gray;
-}
 
-/* Body */
+/* Body 
+-------------------------*/
 p { margin: 20px 10px 30px;
 }
 
-/* Footer */
+/* Footer 
+-------------------------*/
 
