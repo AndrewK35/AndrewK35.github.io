@@ -20,6 +20,9 @@ ul.main-menu>li {
 a:hover {
     background-color: lightblue;
 }
+a: visited {
+  color: white
+}
 
 /* Body */
 p { margin: 20px 10px 30px
