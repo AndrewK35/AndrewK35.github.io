@@ -1,5 +1,5 @@
 /* Header */
-h1 { color: red;
+h1 { 
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
@@ -18,9 +18,11 @@ a:hover {
 }
 
 /* Body */
-body { background-color: light-blue;
+body { 
+  background-color: light-blue;
 }
-p { font-family: "Trebuchet MS", Helvetica, sans-serif;
+p { 
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 /* Footer */
