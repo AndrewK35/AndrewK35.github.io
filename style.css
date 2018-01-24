@@ -17,6 +17,8 @@ ul.main-menu>li {
   color: white;
   padding: 10px;
 }
+a { background-color: blue
+}
 a:hover {
     background-color: lightblue;
 }
