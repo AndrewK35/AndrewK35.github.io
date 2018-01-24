@@ -18,12 +18,11 @@ a:hover {
 }
 
 /* Body */
-body { 
-  background-color: light-blue;
-}
 p { 
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  background-color: light-blue;
 }
 
 /* Footer */
+footer {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
