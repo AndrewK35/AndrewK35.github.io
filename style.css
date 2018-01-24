@@ -1,7 +1,9 @@
-/* Header */
-h1 { 
+/* Overall Site */
+h1, p, footer, ul.main-menu { 
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
+
+/* Header */
 
 /* Menu */
 ul.main-menu {
@@ -13,25 +15,12 @@ ul.main-menu {
 ul.main-menu>li {
   display: inline;
 }
-a:link, a:visited {
-    background-color: #f44336;
-    color: white;
-    padding: 14px 25px;
-    text-align: center; 
-    text-decoration: none;
-    display: inline-block;
-}
-
-a:hover, a:active {
-    background-color: red;
+a:hover {
+    color: red;
 }
 
 /* Body */
-p { 
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-}
+
 
 /* Footer */
-footer {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-}
+
