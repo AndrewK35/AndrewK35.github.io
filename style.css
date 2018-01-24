@@ -11,6 +11,9 @@ ul.main-menu {
 ul.main-menu>li {
   display: inline;
 }
+a:hover {
+  color: red;
+}
 
 /* Body */
 
