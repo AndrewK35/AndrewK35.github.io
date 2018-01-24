@@ -24,6 +24,7 @@ ul.main-menu>li {
 a { 
   background-color: blue;
   color: white;
+  padding: 10px;
 }
 a:hover {
   background-color: lightblue;
