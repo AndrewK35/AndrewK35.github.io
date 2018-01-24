@@ -14,9 +14,6 @@ ul.main-menu {
 }
 ul.main-menu>li {
   display: inline-block;
-}
-a {
-  display: inline-block;
   background-color: blue
   color: white;
   padding: 10px;
