@@ -16,11 +16,11 @@ ul.main-menu {
 }
 ul.main-menu>li {
   display: inline-block;
+  padding: 5px;
+}
+a { 
   background-color: blue;
   color: white;
-  padding: 10px;
-}
-a { background-color: blue;
 }
 a:hover {
     background-color: lightblue;
