@@ -13,7 +13,7 @@ ul.main-menu {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 ul.main-menu>li {
-  display: inline;
+  display: inline-block;
 }
 a:hover {
     color: red;
