@@ -1,6 +1,6 @@
 /* Header */
 h1 { color: red;
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   background-color: blue;
 }
 
@@ -9,7 +9,7 @@ ul.main-menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 ul.main-menu>li {
   display: inline;
@@ -20,7 +20,7 @@ a:hover {
 
 /* Body */
 body { background-color: light-blue;
-p { font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+p { font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 /* Footer */
