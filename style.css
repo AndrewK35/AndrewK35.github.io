@@ -15,6 +15,9 @@ ul.main-menu {
 ul.main-menu>li {
   display: inline-block;
 }
+a {
+  display: inline-block;
+}
 a:hover {
     color: red;
 }
