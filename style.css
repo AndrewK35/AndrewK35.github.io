@@ -39,7 +39,7 @@ a {
   padding: 10px;
 }
 a:hover {
-  background-color: #daebe8;
+  color: white;
 }
 a: visited {
   color: white;
