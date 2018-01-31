@@ -1,12 +1,10 @@
 /* Color Pallette
 ------------------------
-gray-blue       HEX: #cfe0e8
-
-very light blue HEX: #b7d7e8
-
-light blue      HEX: #87bdd8
-
-green-blue      HEX: #daebe8
+Blue -        #018fd3
+White -       #ffffff
+Light Blue -  #e5f3fa
+Gray -        #45454b
+Black -       #000000
 -------------------------*/
 
 
@@ -35,10 +33,11 @@ ul.main-menu>li {
 }
 a {
   padding: 10px;  
-  background-color: #b7d7e8;
+  background-color: #45454b;
   padding: 10px;
 }
 a:hover {
+  background-color: #000000;
   color: white;
 }
 a: visited {
