@@ -24,6 +24,8 @@ h1, ul.main-menu {
 h1 {
   background-color:#000000;
   color: white;
+  padding: 30px;
+  margin: 0;
 }
 /* Menu 
 -------------------------*/
@@ -42,17 +44,16 @@ a, a:visited {
  color: white; 
  padding: 10px;
 }
-
-
+a:hover {
+  color: white;
+  background-color: #000000;
+}
 
 /* Body 
 -------------------------*/
 p { margin: 20px 10px 30px;
 }
-.body: { 
-  background-color:#d2d2d2;
+.body { background-color:  #d2d2d2;
 }
-
 /* Footer 
 -------------------------*/
-
