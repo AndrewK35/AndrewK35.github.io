@@ -21,7 +21,10 @@ h1, ul.main-menu {
 
 /* Header 
 -------------------------*/
-
+h1: {
+  background-color:#000000;
+  color: white;
+}
 /* Menu 
 -------------------------*/
 ul.main-menu {
