@@ -62,3 +62,8 @@ p { margin: 20px 10px 30px;
 }
 /* Footer 
 -------------------------*/
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
