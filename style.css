@@ -28,6 +28,9 @@ h1 {
   margin: 0;
   width: 100%;
 }
+h2 {
+  text-align: center;
+}
 /* Menu 
 -------------------------*/
 ul.main-menu {
