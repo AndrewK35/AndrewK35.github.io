@@ -81,6 +81,10 @@ p {
 }
 .body { background-color:  #d2d2d2;
 }
+.lynda {
+  padding-right: 20px;
+  padding-left: 20px;
+}
 /* Footer 
 -------------------------*/
 footer {
