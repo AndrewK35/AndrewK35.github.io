@@ -48,6 +48,7 @@ ul.main-menu>li {
 a, a:visited {
  color: white; 
  padding: 10px;
+ text-decoration: none;
 }
 a:hover {
   color: white;
