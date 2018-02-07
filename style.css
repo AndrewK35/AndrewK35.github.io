@@ -70,7 +70,9 @@ ul.sub-menu>li {
 }
 /* Body 
 -------------------------*/
-p { margin: 20px 10px 30px;
+p { 
+  padding: 20px;
+  margin: 20px 10px 30px;
 }
 .body { background-color:  #d2d2d2;
 }
