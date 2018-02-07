@@ -11,10 +11,10 @@ Black -       #000000
 
 /* Overall Site 
 -------------------------*/
-h1, h2, p, footer, ul.main-menu, ul.sub-menu, h3 { 
+h1, h2, p, footer, ul.main-menu, ul.sub-menu { 
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
-h1, h2, h3 {
+h1, h2 {
   text-align: center;
 }
 
