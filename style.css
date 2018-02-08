@@ -92,7 +92,9 @@ footer {
   color: white;
   font-size: 12px;
   text-align: right;
-  padding: 5px
+  padding: 5px;
+  width: 100%;
+
 }
 .email {
   text-decoration: underline;
