@@ -98,7 +98,7 @@ table, th, td {
     border: 1px solid black;
     padding: 15px;
     border-collapse: collapse;
-    margin: 20px 30px;
+    align: center;
 }
 /* Footer 
 -------------------------*/
