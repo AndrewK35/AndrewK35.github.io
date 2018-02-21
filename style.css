@@ -52,7 +52,7 @@ a, a:visited {
 }
 a:hover {
   color: white;
-  background-color: #e5f3fa;
+  background-color: #87CEFA;
 }
 a.current {
   background-color:#018fd3;
