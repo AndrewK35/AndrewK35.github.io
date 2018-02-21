@@ -94,6 +94,10 @@ ul.lynda>li {
   padding-left: 20px;
   margin: 10px 30x;
 }
+table, th, td {
+    border: 1px solid black;
+    padding: 15px;
+}
 /* Footer 
 -------------------------*/
 footer {
