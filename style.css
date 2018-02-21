@@ -97,6 +97,7 @@ ul.lynda>li {
 table, th, td {
     border: 1px solid black;
     padding: 15px;
+    border-collapse: collapse;
 }
 /* Footer 
 -------------------------*/
