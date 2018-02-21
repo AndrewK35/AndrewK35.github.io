@@ -11,7 +11,7 @@ Black -       #000000
 
 /* Font and Alignment
 -------------------------*/
-h1, h2, p, footer, ul, .lynda { 
+h1, h2, p, footer, ul, .lynda, table, th, td { 
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 h1, h2 {
@@ -98,6 +98,7 @@ table, th, td {
     border: 1px solid black;
     padding: 15px;
     border-collapse: collapse;
+    margin: 20px 30px;
 }
 /* Footer 
 -------------------------*/
