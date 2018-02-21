@@ -54,7 +54,7 @@ a:hover {
   color: white;
   background-color: #018fd3;
 }
-a.selected {
+a.current {
   background-color:#018fd3;
 }
 ul.sub-menu {
