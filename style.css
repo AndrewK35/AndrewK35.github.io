@@ -89,10 +89,10 @@ p {
 }
 .body { background-color:  #d2d2d2;
 }
-ul.lynda>li {
+ul.bullet>li {
   padding-right: 20px;
   padding-left: 20px;
-  margin: 10px 30x;
+  margin: 10px;
 }
 table, th, td {
     border: 1px solid black;
