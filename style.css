@@ -81,6 +81,8 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+  border: 15px;
+  border-color: #018fd3;
 }
 p {
   margin: 20px 30px;
