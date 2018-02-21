@@ -72,8 +72,12 @@ ul.sub-menu>li {
   background-color: #45454b;
   width: 100%
 }
+
 /* Body 
 -------------------------*/
+.headshot {
+  border-radius: 50%;
+}
 p {
   margin: 20px 30px;
   text-indent: 50px;
