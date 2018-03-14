@@ -17,7 +17,7 @@ h1, h2, p, footer, ul, .lynda, table, th, td {
 h1, h2 {
   text-align: center;
 }
-h1>a, h1>a:hover {
+.body>h1>a, .body>h1>a:hover {
   text-decoration: none;
   color: white;
 }
