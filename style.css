@@ -93,7 +93,7 @@ ul.sub-menu>li {
 
 /* Body 
 -------------------------*/
-main>h2>a, main>h2>a:hover { color: #000000;
+#h2 { color: #000000;
   text-decoration: none;
 }
 
