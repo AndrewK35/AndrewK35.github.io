@@ -33,7 +33,7 @@ h1 {
 }
 /* Menu 
 -------------------------*/
-ul.menu {
+ul.main-menu {
   list-style-type: none;
   padding: 10px;
   margin: 0;
@@ -41,18 +41,18 @@ ul.menu {
   display: flex;
   justify-content: space-around;
 }
-ul.menu>li {
+ul.main-menu>li {
     display: inline;
 }
-.menu {
+.main-menu {
   background-color: #45454b;
   width: 100%
 }
-ul.menu>li>a, ul.sub-menu>li>a {
+ul.main-menu>li>a, ul.sub-menu>li>a {
   color: white;
   text-decoration:none
 } 
-ul.menu>li>a:hover, ul.sub-menu>li>a:hover {
+ul.main-menu>li>a:hover, ul.sub-menu>li>a:hover {
   color: white;
   background-color: #87CEFA;
   color: white; 
