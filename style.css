@@ -82,6 +82,15 @@ ul.sub-menu>li {
   width: 100%
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.sticky + .content {
+  padding-top: 102px;
+}
+
 /* Body 
 -------------------------*/
 a {
