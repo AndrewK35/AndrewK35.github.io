@@ -123,9 +123,9 @@ img.bills {
   border: 10px solid #018fd3;
 }
 
-div.wip2>img {
+img.wip2 {
     display: inline-block;
-  margin-left: 33.33%;
+  margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
   padding-bottom: 10px;
