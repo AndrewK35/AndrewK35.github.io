@@ -123,7 +123,7 @@ img.bills {
   border: 10px solid #018fd3;
 }
 
-.wip2 {
+.wip2, .ad {
     display: block;
   margin-left: auto;
   margin-right: auto;
