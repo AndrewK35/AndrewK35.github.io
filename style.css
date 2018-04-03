@@ -124,6 +124,7 @@ img.bills {
 }
 
 img.wip2{
+  float: left;
   width: 33.3%
     padding: 5px;
     display: block;
