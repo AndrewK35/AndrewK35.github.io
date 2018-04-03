@@ -131,7 +131,7 @@ div.wip2>img {
   padding-bottom: 10px;
 }
 
-div.ad>img {
+div.ad>img, div.wip2>img {
   display: block;
   margin-left: auto;
   margin-right: auto;
