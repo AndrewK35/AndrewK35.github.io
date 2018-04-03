@@ -123,13 +123,15 @@ img.bills {
   border: 10px solid #018fd3;
 }
 
-img.wip2{
+img.wip2 {
   float: left;
   width: 33.3%
     padding: 5px;
     display: block;
   margin-left: auto;
     margin-right: auto;
+}
+.wip { float: left;
 }
 p {
   margin: 20px 30px;
