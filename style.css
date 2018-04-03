@@ -90,7 +90,7 @@ ul.sub-menu>li {
   top: 0;
   width: 100%
 }
-.sticky + .content {
+.sticky, .content {
   padding-top: 102px;
 }
 
