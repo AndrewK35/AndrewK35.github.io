@@ -26,7 +26,7 @@
     </div>
     <p>My name is Andrew Kunselman and I attended Central Valley High School where in Aliquippa Pennsylvania.  I graduated in 2015 and enrolled in the University of Pittsburgh where I am a current Junior, majoring in Marketing and Business Information Systems with a Certificate in Digital Media.    I have also received my Google AdWords Certification in my spare time and ran two successful political online advertising campaigns.  One was a state-wide race in Pennsylvania, and one was in Beaver County, Pennsylvania.</p> 
     <p> At Pitt, I landed a job as an Equipment Manager for the University of Pittsburgh Football team where I distribute and routinely fix helmets, shoulder pads, and other equipment.  As an Equipment Manager I am also responsible for pre-game and post-game locker room set up and clean up, including traveling to away games, and providing laundry service for members of the team and staff.  I am also involved in the American Marketing Association and their spin-off club Pitt Creative 360 which provides marketing content for other clubs on campus.</p>
-    <p>In May 2018, I will begin as a Merchandising Intern at Dick's Sporting Goods Customer Support Center in Coraopolis, <a name="WIP1" Pennsylvania.</a></p>
+    <p>In May 2018, I will begin as a Merchandising Intern at Dick's Sporting Goods Customer Support Center in Coraopolis, Pennsylvania. <a name="WIP1"</a></p>
   </main>
   <main>
     <h2><a id="h2">Work-in-Progress 1</a></h2>
@@ -41,10 +41,10 @@
 	  <p>The first actual change I made was to the font, because the default font makes a website seem underdeveloped in my opinion.  After googling some different options for CSS that are accepted by all major browsers, I came to the decision to implement the "Trebuchet MS" font.  I found it to be nice and simple, there weren't a lot of stylistic accents on the end of the letters, which made it easy to read.</p>
 	  <p>Simply adding the color and font to the CSS was not enough to give my website a professional feel.  The header was thin and didn't touch the menu.  To fix this, I added 30px of padding and changed the margin to 0px.  This gave the header a bigger, bolder area of black and brought it in contact with the menu below.  The menu was too thin, and the options were too close together.  To fix this, I added 10px of padding and changed the display to "flex" and the justification to "space-around."  This made the menu an appropriate size in proportion to the header and spaced out the options equally according to the size of the screen.  When a user makes the screen smaller, the menu options adjust to the width and remain equally centered.  Finally, for a little bit of extra functionality, I added a hover style to the menu.  When a user hovers over a menu item, the background color changes to black, as opposed to the gray on the rest of the menu.</p>
 	  <p>Most of my work was done during class time.  Conveniently, I also have group meetings for American Marketing Association on Tuesday nights after class.  These do not start until 9:30 and class ends at 8:30, so every week I spend my down time finishing up some details of my website.   This is when I normally google different things to mess around with and see how they work.  I used to do this all on GitHub, but I got impatient waiting for the changes to make their way through GitHub, and to my final site.  I recently copied and pasted my code into JSFiddle.net because it is much faster to type something in and press "Run" to see what effect it has through some quick trial and error.</p>
-	  <p>In the immediate future, I want to implement a sticky menu, that keeps my menu bar available at the top of the page no matter how far users scroll down.  This will be extremely useful for anyone visiting my site, especially if I am able to execute the parallax style later on.  I also need to do some trial and error configuring the formatting of the "h2" and "p" tags to see what looks best.  I'm going to play with centering the h2 as opposed to having it left aligned.  I also might make it slightly larger and apply one of the blue colors from the color palette.  Finally, I am going to play with some different margins for the paragraph text to try to center it more and change some of the alignment coding to make it adjust to the width of the screen, similar to the menu bar.</p> 
+	  <p>In the immediate future, I want to implement a sticky menu, that keeps my menu bar available at the top of the page no matter how far users scroll down.  This will be extremely useful for anyone visiting my site, especially if I am able to execute the parallax style later on.  I also need to do some trial and error configuring the formatting of the "h2" and "p" tags to see what looks best.  I'm going to play with centering the h2 as opposed to having it left aligned.  I also might make it slightly larger and apply one of the blue colors from the color palette.  Finally, I am going to play with some different margins for the paragraph text to try to center it more and change some of the alignment coding to make it adjust to the width of the screen, similar to the menu bar.<a name="Skills"></a></p> 
   </main>
 	<main>
-		<h2><a name="Skills" id="h2">Skills</a></h2>
+		<h2><a id="h2">Skills</a></h2>
     <ul class="sub-menu">
 	<li><a href="/skills/" class="current">Skills Assignment</a></li>
 	<li><a href ="/skills/post-1/">Post 1</a></li>
@@ -59,9 +59,10 @@
     		<li>A lof of how much time I spent doing individual practice as of March 2nd, 2018 is located in Post 3</li>
     		<li>My final time log, and a reflection of what I learned is located in Post 4</li>
 	  </ul>
+		<a name="WIP2"> </a>
   </main>
 <main>
-	<h2><a name="WIP2" id="h2">Work-in-Progress 2</a></h2>
+	<h2><a id="h2">Work-in-Progress 2</a></h2>
 	<ul class="sub-menu">
 	<li><a href="/work-2/" class="current">Written Reflection</a></li>
 	<li><a href="/work-2/in-class-ps/">In-Class Photoshop</a></li>
@@ -77,16 +78,18 @@
     <p>After I got those links to scroll the user rather than navigate them, I had to make a Sticky NavBar so that the user still had access to it all the way at the bottom of the page.  This was my first encounter with JavaScript.  I looked up a few different videos and articles on how to implement this, but I had trouble connecting a JavaScript file to my main index.html file.  Interestingly enough, I figured out how to insert the JavaScript code at the bottom of my html code and it worked the way I wanted it to.</p>
     <p>The NavBar now sticks to the top, but when the user scrolls far enough for it to stick, there is a slight jump on the page because of the missing space where the NavBar used to be.  I still need to figure out how to fix this, but I would like to do so in a JavaScript file, not at the bottom of my html.  Further, the sticky NavBar covers up my h2 when the link scrolls the user down to it.  I need to figure out how to make the links scroll just above the h2, while keeping the sticky NavBar in a good spot.  This, again, will require JavaScript which I would like to spend some more time figuring out.</p>
     <p>The final thing I want to figure out how to do is change through sub-menu items while staying on the same page.  For instance, if a user clicks WIP2 on the main menu, and is sent down here, and then clicks Photoshop Revision, I want everything else to stay the same, but have the WIP2 section change from Written Reflection to Photoshop Revision.  I believe this is possible through JavaScript, but again, it will take some self-teaching to figure that out.</p>
-  </main>
+	<a name="presentation"> </a>
+	  </main>
 <main>
-	<h2><a name="presentation" id="h2">Work-in-Progress Presentation</a></h2>
+	<h2><a id="h2">Work-in-Progress Presentation</a></h2>
 	<ul class="sub-menu">
 	<li> </li>
     </ul>
     <p>Presentation begins here</p>
-  </main>
+	<a name="Portfolio"></a>
+	  </main>
 <main>
-	<h2><a name="Portfolio" id="h2">My Portfolio</a></h2>
+	<h2><a id="h2">My Portfolio</a></h2>
 	<ul class="sub-menu">
 	<li> </li>
     </ul>
