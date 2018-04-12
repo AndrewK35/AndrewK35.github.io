@@ -29,7 +29,7 @@
     <p>In May 2018, I will begin as a Merchandising Intern at Dick's Sporting Goods Customer Support Center in Coraopolis, Pennsylvania. <a name="WIP1"</a></p>
   </main>
   <main>
-    <h2><a id="h2">Work-in-Progress 1</a></h2>
+    <h2><a id="WIP1">Work-in-Progress 1</a></h2>
     <ul class="sub-menu">
 	<li><a href="/work-1/" class="current">WIP 1</a></li>
 	<li><a href="/work-1/in-class-1/">In Class Assignment 1</a></li>
@@ -44,7 +44,7 @@
 	  <p>In the immediate future, I want to implement a sticky menu, that keeps my menu bar available at the top of the page no matter how far users scroll down.  This will be extremely useful for anyone visiting my site, especially if I am able to execute the parallax style later on.  I also need to do some trial and error configuring the formatting of the "h2" and "p" tags to see what looks best.  I'm going to play with centering the h2 as opposed to having it left aligned.  I also might make it slightly larger and apply one of the blue colors from the color palette.<a name="Skills"></a>Finally, I am going to play with some different margins for the paragraph text to try to center it more and change some of the alignment coding to make it adjust to the width of the screen, similar to the menu bar.</p>
 	  </main>
 	<main>
-		<h2><a id="h2">Skills</a></h2>
+		<h2><a id="Skills">Skills</a></h2>
     <ul class="sub-menu">
 	<li><a href="/skills/" class="current">Skills Assignment</a></li>
 	<li><a href ="/skills/post-1/">Post 1</a></li>
@@ -62,7 +62,7 @@
 	  </ul>	
   </main>
 <main>
-	<h2><a id="h2">Work-in-Progress 2</a></h2>
+	<h2><a id="WIP2">Work-in-Progress 2</a></h2>
 	<ul class="sub-menu">
 	<li><a href="/work-2/" class="current">Written Reflection</a></li>
 	<li><a href="/work-2/in-class-ps/">In-Class Photoshop</a></li>
@@ -81,7 +81,7 @@
 	<a name="presentation"> </a>
 	  </main>
 <main>
-	<h2><a id="h2">Work-in-Progress Presentation</a></h2>
+	<h2><a id="presentation">Work-in-Progress Presentation</a></h2>
 	<ul class="sub-menu">
 	<li> </li>
     </ul>
@@ -89,7 +89,7 @@
 	<a name="Portfolio"></a>
 	  </main>
 <main>
-	<h2><a id="h2">My Portfolio</a></h2>
+	<h2><a id="Portfolio">My Portfolio</a></h2>
 	<ul class="sub-menu">
 	<li> </li>
     </ul>
@@ -121,7 +121,7 @@ var distance = 40;
 var speed = 24;
 function autoscrollTo(el) {
 	var currentY = window.pageYoffset;
-	var targetY = document.getElementByName(el).offsetTop;
+	var targetY = document.getElementByID(el).offsetTop;
 	var bodyheight = document.body.offsetHeight
 	var yPos = currentY + window.innerHeight;
 	var animator = setTimeout('autoscrollTo(\' '+el+' \')',speed);
