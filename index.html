@@ -11,11 +11,11 @@
 	  <div id="navbar">
     <ul class="main-menu">
       <li><a href="/" class="current">Home</a></li>
-      <li><a href="#WIP1">WIP 1</a></li>
-      <li><a href="#Skills">Skills Assignment</a></li>
-      <li><a href="#WIP2">WIP 2</a></li>
-      <li><a href="#presentation">Presentation</a></li>
-      <li><a href="#Portfolio">Final Portfolio</a></li>
+      <li><a href="#" onclick="return false;" onmousedown="autoscrollTo('WIP1');">WIP 1</a></li>
+      <li><a href="#" onclick="return false;" onmousedown="autoscrollTo('Skills');">Skills Assignment</a></li>
+      <li><a href="#" onclick="return false;" onmousedown="autoscrollTo('WIP2');">WIP 2</a></li>
+      <li><a href="#" onclick="return false;" onmousedown="autoscrollTo('presentation');">Presentation</a></li>
+      <li><a href="#" onclick="return false;" onmousedown="autoscrollTo('Portfolio');">Final Portfolio</a></li>
       <li><a href="https://www.linkedin.com/in/andrew-kunselman/">My LinkedIn</a></li>
 	    </div></ul></nav>
   <div class="content">
@@ -115,6 +115,27 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+/* -------*/	
+var scrollY = 0;
+var distance = 40;
+var speed = 24;
+function autoscrollTo(el) {
+	var currentY = window.pageYoffset;
+	var targetY = document.getElementByName(el).offsetTop;
+	var bodyheight = document.body.offsetHeight
+	var yPos = currentY + window.innerHeight;
+	var animator = setTimeout('autoscrollTo(\' '+el+' \')',speed);
+	if (yPos > bodyheight) {
+		cleartimeout (animator)
+	} else {
+		if (currentY < targetY-distance) {
+			scrollY = currentY + distance;
+			window.scroll (0, scrollY);
+		} else { cleartimeout (animator);
+		       }
+	
+}
+	
 	</script>
 </body>
 </html>
