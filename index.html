@@ -122,11 +122,11 @@ var speed = 24;
 function autoscrollTo(el) {
 	var currentY = window.pageYoffset;
 	var targetY = document.getElementByID(el).offsetTop;
-	var bodyheight = document.body.offsetHeight
+	var bodyheight = document.body.offsetHeight;
 	var yPos = currentY + window.innerHeight;
 	var animator = setTimeout('autoscrollTo(\' '+el+' \')',speed);
 	if (yPos > bodyheight) {
-		cleartimeout (animator)
+		cleartimeout (animator);
 	} else {
 		if (currentY < targetY-distance) {
 			scrollY = currentY + distance;
