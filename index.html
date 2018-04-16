@@ -10,11 +10,11 @@
   <nav>
 	  <div id="navbar">
     <ul class="main-menu">
-      <li><a href="/" class="current">Home</a></li>
-      <li><a href="#WIP1">WIP 1</a></li>
-      <li><a href="#Skills">Skills Assignment</a></li>
-      <li><a href="#WIP2">WIP 2</a></li>
-      <li><a href="#Portfolio">Final Portfolio</a></li>
+      <li><a href="/" onclick="dodajAktywne(this)">Home</a></li>
+      <li><a href="#WIP1" onclick="dodajAktywne(this)">WIP 1</a></li>
+      <li><a href="#Skills" onclick="dodajAktywne(this)">Skills Assignment</a></li>
+      <li><a href="#WIP2" onclick="dodajAktywne(this)">WIP 2</a></li>
+      <li><a href="#Portfolio" onclick="dodajAktywne(this)">Final Portfolio</a></li>
       <li><a href="https://www.linkedin.com/in/andrew-kunselman/">My LinkedIn</a></li>
 	    </div></ul></nav>
   <div class="content">
@@ -106,7 +106,15 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+	
 /* -------*/	
+function dodajAktywne(elem) {
+    var a = document.getElementsByTagName('a')
+    for (i = 0; i < a.length; i++) {
+        a[i].classList.remove('current');
+    }
+    elem.classList.add('current');
+}
 
 	</script>
 </body>
