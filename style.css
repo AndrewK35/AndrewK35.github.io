@@ -132,13 +132,6 @@ div.ad>img, div.wip2>img {
   padding-bottom:10px;
 }
 
-div.bird>img {
-  display: inline-block;
-    padding-left: 30px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 p {
   margin: 20px 30px;
   text-indent: 50px;
