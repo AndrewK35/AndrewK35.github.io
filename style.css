@@ -11,10 +11,10 @@ Black -       #000000
 
 /* Font and Alignment
 -------------------------*/
-h1, h2, h3, p, footer, ul, .lynda, table, th, td { 
+h1, h2, main>h3, p, footer, ul, .lynda, table, th, td { 
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
-h1, h2, h3 {
+h1, h2, main>h3 {
   text-align: center;
 }
 .body>h1>a, .body>h1>a:hover {
