@@ -131,7 +131,9 @@ div.ad>img, div.wip2>img {
   padding-top: 10px;
   padding-bottom:10px;
 }
-
+div.movie>img {
+  padding-left: 30px;
+}
 p {
   margin: 20px 30px;
   text-indent: 50px;
